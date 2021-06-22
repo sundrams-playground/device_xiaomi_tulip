@@ -25,7 +25,7 @@
 # Inherit from sdm660-common
 include device/xiaomi/bouquet-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/twolip
+DEVICE_PATH := device/xiaomi/tulip
 
 # Duplicates
 BUILD_BROKEN_DUP_RULES := true
@@ -60,4 +60,4 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 VENDOR_SECURITY_PATCH := 2018-11-01
 
 # Inherit the proprietary files
-include vendor/xiaomi/twolip/BoardConfigVendor.mk
+include vendor/xiaomi/tulip/BoardConfigVendor.mk
