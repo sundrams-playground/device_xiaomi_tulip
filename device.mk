@@ -52,7 +52,6 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     AvoidAppsInCutoutOverlay \
     TulipFrameworksBaseOverlay \
-    TulipSettingsOverlay \
     TulipSystemUIOverlay
 
 # Ramdisk
