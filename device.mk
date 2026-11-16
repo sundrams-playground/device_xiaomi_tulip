@@ -33,7 +33,7 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 $(call inherit-product, $(DEVICE_PATH)/properties.mk)
 
 # Consumerir
-BOARD_HAVE_IR := true
+#BOARD_HAVE_IR := true
 
 # Display calibration
 PRODUCT_COPY_FILES += \
