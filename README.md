@@ -1,5 +1,21 @@
 The Xiaomi Redmi Note 6 Pro (codenamed _"tulip"_) is a mid-range smartphone from Xiaomi announced in September 2018.
 
+## Source layout
+
+This is the unified device tree for tulip. Place it at `device/xiaomi/tulip`
+in the Android source checkout. The board configuration, hardware modules,
+SELinux policy, overlays, and proprietary file lists are all included here.
+No separate common device tree or common vendor tree is required.
+
+From this directory, run `./extract-files.sh /path/to/dump` (or omit the
+source to extract over adb). This generates the single vendor tree at
+`vendor/xiaomi/tulip`. Run `./setup-makefiles.sh` to regenerate its build
+files after editing the proprietary file lists. Both scripts require
+`tools/extract-utils` in the Android checkout.
+
+The kernel at `kernel/xiaomi/sdm660` and the platform dependencies referenced
+by the build files are still required.
+
 ## Device specifications
 
 | Device                  | Xiaomi Redmi Note 6 Pro                                     |
