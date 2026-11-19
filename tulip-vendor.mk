@@ -94,8 +94,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
     vendor/xiaomi/tulip/proprietary/vendor/etc/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/diracvdd.bin \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/gpfspath_oem_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gpfspath_oem_config.xml \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/xiaomi/tulip/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
@@ -112,8 +113,13 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/port-bridge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/port-bridge.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.adsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-service.rc \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.dsp@1.0-service.rc \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qseecom@1.0-service.rc \
+    vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/xiaomi/tulip/proprietary/vendor/etc/init/vendor.qti.rmt_storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.rmt_storage.rc \
@@ -130,8 +136,14 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tulip/proprietary/vendor/firmware/a512_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b02 \
     vendor/xiaomi/tulip/proprietary/vendor/firmware/a512_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.elf \
     vendor/xiaomi/tulip/proprietary/vendor/firmware/a512_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.mdt \
+    vendor/xiaomi/tulip/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/xiaomi/tulip/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/xiaomi/tulip/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
+    vendor/xiaomi/tulip/proprietary/vendor/firmware/a530v1_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pfp.fw \
+    vendor/xiaomi/tulip/proprietary/vendor/firmware/a530v1_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v1_pm4.fw \
+    vendor/xiaomi/tulip/proprietary/vendor/firmware/a530v2_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v2_seq.fw2 \
+    vendor/xiaomi/tulip/proprietary/vendor/firmware/a530v3_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_gpmu.fw2 \
+    vendor/xiaomi/tulip/proprietary/vendor/firmware/a530v3_seq.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530v3_seq.fw2 \
     vendor/xiaomi/tulip/proprietary/vendor/firmware/a540_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_gpmu.fw2 \
     vendor/xiaomi/tulip/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/tulip/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
@@ -166,6 +178,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libmmosal \
+    libsdm-disp-apis \
     libFileMux \
     libOmxMux \
     libmmparser_lite \
@@ -179,11 +192,16 @@ PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.keymaster@3.0-impl-qti \
     keystore.sdm660 \
+    vendor.qti.esepowermanager@1.1-impl \
+    vendor.qti.hardware.qseecom@1.0-impl \
+    vendor.qti.hardware.qteeconnector@1.0-impl \
     vulkan.adreno \
     libC2D2 \
     libCB \
+    libGPreqcancel_svc \
     libOpenCL \
     libQSEEComAPI \
+    libQTEEConnector_vendor \
     libVkLayer_q3dtools \
     libadreno_utils \
     libadsp_default_listener \
@@ -191,10 +209,12 @@ PRODUCT_PACKAGES += \
     libc2d30_bltlib \
     libcdsp_default_listener \
     libcdsprpc \
+    libcpion \
     libdiag \
     libdsutils \
     libfastcvadsp_stub \
     libfastcvopt \
+    libfastrpc_utf_stub \
     libgpudataproducer \
     libgpustats \
     libgsl \
@@ -208,6 +228,9 @@ PRODUCT_PACKAGES += \
     libmdmdetect \
     libmdsprpc \
     libminkdescriptor \
+    libmm-hdcpmgr \
+    libmmcamera_dbg \
+    libqcbor \
     libqcci_legacy \
     libqdi \
     libqdp \
@@ -221,7 +244,14 @@ PRODUCT_PACKAGES += \
     libqmi_legacy \
     libqmiservices \
     libqseed3 \
+    libqtikeymaster4 \
     librs_adreno \
+    libscveCommon \
+    libscveCommon_stub \
+    libscveObjectSegmentation \
+    libscveObjectSegmentation_stub \
+    libscveObjectTracker \
+    libscveObjectTracker_stub \
     libsdedrm \
     libsdm-color \
     libsdm-diag \
@@ -232,11 +262,23 @@ PRODUCT_PACKAGES += \
     libsensor_reg \
     libsysmon_cdsp_skel \
     libthermalclient \
+    libtime_genoff \
     libtinyxml2_1 \
     sensors.ssc \
+    vendor.display.color@1.0 \
+    vendor.display.color@1.1 \
+    vendor.display.color@1.2 \
+    vendor.display.postproc@1.0 \
+    vendor.qti.esepowermanager@1.0 \
+    vendor.qti.esepowermanager@1.1 \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.fingerprint@1.0 \
     vendor.qti.hardware.mwqemadapter@1.0_vendor \
+    vendor.qti.hardware.qseecom@1.0_vendor \
+    vendor.qti.hardware.qteeconnector@1.0 \
+    vendor.qti.hardware.scve.objecttracker@1.0 \
+    vendor.qti.hardware.scve.panorama@1.0 \
+    vendor.qti.hardware.tui_comm@1.0_vendor \
     camera.sdm660 \
     sound_trigger.primary.sdm660 \
     libAlacSwDec \
@@ -693,7 +735,6 @@ PRODUCT_PACKAGES += \
     libmmcamera_arcsoftbokeh_lib \
     libmmcamera_atmel_at24c32e_eeprom \
     libmmcamera_bokeh \
-    libmmcamera_dbg \
     libmmcamera_depth_map \
     libmmcamera_dummyalgo \
     libmmcamera_eebinparse \
@@ -829,6 +870,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
     vendor.qti.hardware.btconfigstore@2.0-impl \
+    vendor.qti.hardware.capabilityconfigstore@1.0-impl \
     vendor.qti.hardware.soter@1.0-impl \
     lib-imscmservice \
     lib-imsdpl \
@@ -843,10 +885,12 @@ PRODUCT_PACKAGES += \
     lib-rtpsl \
     lib-siputility \
     lib-uceservice \
+    libGPQTEEC_vendor \
+    libGPTEE_vendor \
     libGPreqcancel \
-    libGPreqcancel_svc \
     libSecureUILib \
     libStDrvInt \
+    libbase64 \
     libbtnv \
     libcacertclient \
     libcdfw \
@@ -868,10 +912,12 @@ PRODUCT_PACKAGES += \
     libgf_ca \
     libgf_hal \
     libgnsspps \
+    libhdcpsrm \
     libizat_client_api \
     libizat_core \
     libjnihelper \
     liblbs_core \
+    libloadalgo_stub \
     libloc_api_v02 \
     libloc_api_wds \
     libloc_core \
@@ -890,6 +936,7 @@ PRODUCT_PACKAGES += \
     libnetmgr_rmnet_ext \
     libnlnetmgr \
     liboemaids_vendor \
+    libops \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
@@ -908,14 +955,19 @@ PRODUCT_PACKAGES += \
     libril-qc-radioconfig \
     libril-qcril-hook-oem \
     librilqmiservices \
+    librmp \
     librpmb \
+    libsecureui \
     libsecureui_svcsock \
     libsettings \
+    libsi \
+    libspl \
     libssd \
     libsystem_health_mon \
     libthermalfeature \
     libthermalioctl \
-    libtime_genoff \
+    libtrustedapploader \
+    libtzdrmgenprov \
     libvendor.goodix.hardware.fingerprint@1.0-service \
     libvendor.goodix.hardware.fingerprint@1.0 \
     libwms \
@@ -923,13 +975,10 @@ PRODUCT_PACKAGES += \
     libwvhidl \
     libxml \
     libxtadapter \
+    libwvdrmengine \
     qcrild_librilutils \
     qtibus \
     qtimutex \
-    vendor.display.color@1.0 \
-    vendor.display.color@1.1 \
-    vendor.display.color@1.2 \
-    vendor.display.postproc@1.0 \
     vendor.qti.data.factory@2.0_vendor \
     vendor.qti.data.factory@2.1_vendor \
     vendor.qti.data.factory@2.2_vendor \
@@ -989,7 +1038,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_server@1.0_vendor \
     vendor.qti.hardware.slmadapter@1.0_vendor \
     vendor.qti.hardware.soter@1.0 \
-    vendor.qti.hardware.tui_comm@1.0_vendor \
     vendor.qti.ims.callcapability@1.0_vendor \
     vendor.qti.ims.callinfo@1.0_vendor \
     vendor.qti.ims.factory@1.0_vendor \
@@ -999,6 +1047,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0_vendor \
+    vendor_lib_rfsa_adsp_dirac_resource_dar \
     vendor_lib_rfsa_adsp_libFastRPC_AUE_Forward_skel_so \
     vendor_lib_rfsa_adsp_libFastRPC_UTF_Forward_800h_skel_so \
     vendor_lib_rfsa_adsp_libFastRPC_UTF_Forward_Qtc2_skel_so \
@@ -1006,12 +1055,15 @@ PRODUCT_PACKAGES += \
     vendor_lib_rfsa_adsp_libadsp_hvx_add_constant_so \
     vendor_lib_rfsa_adsp_libadsp_hvx_skel_so \
     vendor_lib_rfsa_adsp_libapps_mem_heap_so \
+    vendor_lib_rfsa_adsp_libdirac-capiv2_so \
     vendor_lib_rfsa_adsp_libdspCV_skel_so \
     vendor_lib_rfsa_adsp_libfastcvadsp_so \
     vendor_lib_rfsa_adsp_libfastcvadsp_skel_so \
     vendor_lib_rfsa_adsp_libscveObjectSegmentation_skel_so \
     vendor_lib_rfsa_adsp_libscveT2T_skel_so \
     vendor_lib_rfsa_adsp_libvpp_svc_skel_so \
+    vendor.qti.hardware.qseecom@1.0 \
+    vendor.qti.hardware.tui_comm@1.0 \
     com.qualcomm.qti.dpm.api@1.0 \
     libdiag_system \
     libdpmctmgr \
@@ -1020,8 +1072,14 @@ PRODUCT_PACKAGES += \
     libdpmtcm \
     libimscamera_jni \
     libimsmedia_jni \
+    libsd_sdk_display.qti \
+    libsdm-disp-apis.qti \
+    vendor.display.color@1.0_system_ext \
+    vendor.display.color@1.1_system_ext \
+    vendor.display.color@1.2_system_ext \
+    vendor.display.postproc@1.0_system_ext \
     vendor.qti.diaghal@1.0 \
-    SoterService \
+    vendor.qti.hardware.alarm@1.0 \
     CneApp \
     FingerprintExtensionService \
     IWlanService \
@@ -1037,7 +1095,9 @@ PRODUCT_PACKAGES += \
     dpmapi \
     embmslibrary \
     qcrilhook \
-    manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.qti.hardware.alarm-V1.0-java \
+    vendor.qti.hardware.capabilityconfigstore-V1.0-java \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
     vendor.qti.gnss@4.3-service.xml \
     adpl \
     adsprpcd \
@@ -1049,12 +1109,16 @@ PRODUCT_PACKAGES += \
     garden_app \
     hvdcp_opti \
     android.hardware.bluetooth@1.0-service-qti \
-    android.hardware.drm@1.3-service.widevine \
+    android.hardware.drm@1.4-service.widevine \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.keymaster@3.0-service-qti \
     qcrild \
     vendor.display.color@1.0-service \
+    vendor.qti.esepowermanager@1.1-service \
     vendor.qti.hardware.alarm@1.0-service \
+    vendor.qti.hardware.capabilityconfigstore@1.0-service \
+    vendor.qti.hardware.qseecom@1.0-service \
+    vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
     ims_rtp_daemon \
@@ -1062,6 +1126,7 @@ PRODUCT_PACKAGES += \
     imsqmidaemon \
     imsrcsd \
     irsc_util \
+    loadalgo \
     loc_launcher \
     lowi-server \
     mlid \
@@ -1087,6 +1152,14 @@ PRODUCT_PACKAGES += \
     xtra-daemon \
     xtwifi-client \
     dpmd
+
+PRODUCT_PACKAGES += \
+    vendor_lib_libEGL_adreno_so \
+    vendor_lib_libGLESv2_adreno_so \
+    vendor_lib_libq3dtools_adreno_so \
+    vendor_lib64_libEGL_adreno_so \
+    vendor_lib64_libGLESv2_adreno_so \
+    vendor_lib64_libq3dtools_adreno_so
 
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
 
