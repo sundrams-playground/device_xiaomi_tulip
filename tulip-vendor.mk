@@ -824,7 +824,7 @@ PRODUCT_PACKAGES += \
     com.dsi.ant@1.0-impl \
     fingerprint.fpc.default \
     fingerprint.goodix.default \
-    vendor.qti.gnss@3.0-impl \
+    vendor.qti.gnss@4.3-impl \
     vendor.qti.hardware.alarm@1.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
@@ -848,6 +848,9 @@ PRODUCT_PACKAGES += \
     libSecureUILib \
     libStDrvInt \
     libbtnv \
+    libcacertclient \
+    libcdfw \
+    libcdfw_remote_api \
     libcne \
     libcneapiclient \
     libcneoplookup \
@@ -859,18 +862,26 @@ PRODUCT_PACKAGES += \
     libdrmfs \
     libdrmtime \
     libdsi_netctrl \
+    libgarden \
+    libgarden_haltests_e2e \
     libgdtap \
     libgf_ca \
     libgf_hal \
+    libgnsspps \
     libizat_client_api \
     libizat_core \
+    libjnihelper \
     liblbs_core \
     libloc_api_v02 \
+    libloc_api_wds \
+    libloc_core \
+    libloc_socket \
     liblocationservice \
     liblocationservice_glue \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
+    libminksocket \
     libmlipay \
     libmlipay@1.1 \
     libnetmgr \
@@ -882,6 +893,7 @@ PRODUCT_PACKAGES += \
     libpdmapper \
     libpdnotifier \
     libperipheral_client \
+    libqcc_file_agent \
     libqcmaputils \
     libqcrilFramework \
     libqcrildatactl \
@@ -899,7 +911,6 @@ PRODUCT_PACKAGES += \
     librpmb \
     libsecureui_svcsock \
     libsettings \
-    libslimclient \
     libssd \
     libsystem_health_mon \
     libthermalfeature \
@@ -929,11 +940,16 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@1.2 \
     vendor.qti.gnss@2.0 \
     vendor.qti.gnss@2.1 \
-    vendor.qti.gnss@3.0-service \
     vendor.qti.gnss@3.0 \
+    vendor.qti.gnss@4.0 \
+    vendor.qti.gnss@4.1 \
+    vendor.qti.gnss@4.2 \
+    vendor.qti.gnss@4.3-service \
+    vendor.qti.gnss@4.3 \
     vendor.qti.hardware.alarm@1.0_vendor \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
+    vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0_vendor \
     vendor.qti.hardware.data.cne.internal.constants@1.0_vendor \
     vendor.qti.hardware.data.cne.internal.server@1.0_vendor \
@@ -944,6 +960,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0_vendor \
     vendor.qti.hardware.data.qmi@1.0_vendor \
     vendor.qti.hardware.fm@1.0_vendor \
+    vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.radio.am@1.0_vendor \
     vendor.qti.hardware.radio.ims@1.0_vendor \
     vendor.qti.hardware.radio.ims@1.1_vendor \
@@ -1021,7 +1038,7 @@ PRODUCT_PACKAGES += \
     embmslibrary \
     qcrilhook \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
-    vendor.qti.gnss@3.0-service.xml \
+    vendor.qti.gnss@4.3-service.xml \
     adpl \
     adsprpcd \
     cdsprpcd \
@@ -1029,6 +1046,7 @@ PRODUCT_PACKAGES += \
     cnss-daemon \
     dpmQmiMgr \
     dspservice \
+    garden_app \
     hvdcp_opti \
     android.hardware.bluetooth@1.0-service-qti \
     android.hardware.drm@1.3-service.widevine \
@@ -1046,6 +1064,7 @@ PRODUCT_PACKAGES += \
     irsc_util \
     loc_launcher \
     lowi-server \
+    mlid \
     mlipayd@1.1 \
     mm-pp-dpps \
     msm_irqbalance \
@@ -1062,11 +1081,11 @@ PRODUCT_PACKAGES += \
     qti \
     rmt_storage \
     sensors.qti \
-    slim_daemon \
     tftp_server \
     thermal-engine \
     time_daemon \
     xtra-daemon \
+    xtwifi-client \
     dpmd
 
 ifeq ($(BOARD_HAVE_QCOM_FM),true)
