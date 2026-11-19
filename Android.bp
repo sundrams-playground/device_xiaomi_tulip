@@ -28430,7 +28430,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libqxrsplitauxservice.qti.so",
             ],
             shared_libs: [
-                "libwfdservice_shim",
+                "libwfdservice_shim_tulip",
                 "libutils",
                 "libcutils",
                 "libaudioclient",
