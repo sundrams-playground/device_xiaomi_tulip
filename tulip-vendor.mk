@@ -287,7 +287,6 @@ PRODUCT_PACKAGES += \
     libqrtr \
     libqseed3 \
     libqtigef \
-    libqtikeymaster4 \
     librs_adreno \
     libscveCommon \
     libscveCommon_stub \
